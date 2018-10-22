@@ -17,7 +17,7 @@ gfsh> connect --use-http=true --url=<pcc-gfsh-url> --user=<username> --password=
 
 ### Step 2 - Compile `pcc-inline-caching-server`
 
-Update [io.pivotal.util.MongoConnection.java](http://www.dropwizard.io/1.0.2/docs/) for your remote MongoDB server.
+Update [MongoConnection](https://github.com/liwang-pivotal/pcc-inline-caching-demo/blob/master/pcc-inline-caching-server/src/main/java/io/pivotal/util/MongoConnection.java) class for your remote MongoDB server.
 
 ### Step 3 - Deploy Server Jar using GFSH
 
